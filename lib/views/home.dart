@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:water_schedule/components/service_card.dart';
 import 'package:water_schedule/models/service.dart';
-import 'package:water_schedule/utils/constants.dart' as Contants;
 import 'package:water_schedule/utils/routes.dart' as Routes;
 
 class Home extends StatefulWidget {
@@ -42,12 +41,6 @@ class _HomeState extends State<Home> {
           width: _width,
           alignment: Alignment.center,
           margin: EdgeInsets.fromLTRB(0, 15, 0, 0),
-          decoration: BoxDecoration(
-            border: Border.all(
-              color: Colors.black,
-              width: 2,
-            ),
-          ),
           child: GridView.count(
               crossAxisCount: 2,
               mainAxisSpacing: 2,

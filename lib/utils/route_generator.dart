@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:water_schedule/views/consume_water_report.dart';
 import 'package:water_schedule/views/home.dart';
 import 'package:water_schedule/utils/routes.dart' as Routes;
+import 'package:water_schedule/views/lack_water_report.dart';
 import 'package:water_schedule/views/payment_report.dart';
 
 class RouteGenerator {
@@ -13,6 +15,10 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => Home());
       case Routes.paymentReport:
         return MaterialPageRoute(builder: (_) => PaymentReport());
+      case Routes.lackReport:
+        return MaterialPageRoute(builder: (_) => LackWaterReport());
+      case Routes.consumeReport:
+        return MaterialPageRoute(builder: (_) => ConsumeWaterReport());
       default:
         return _routeError();
     }

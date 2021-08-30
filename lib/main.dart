@@ -21,7 +21,7 @@ void main() async {
     primaryColor: Color(0xff00A7CA),
     primaryColorDark: Color(0xff4E89B7),
     accentColor: Color(0xff00C3C5),
-    backgroundColor: Color(0xffFAFAFA),
+    backgroundColor: Color(0xff00A7CA),
   );
 
   runApp(MaterialApp(

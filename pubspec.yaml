@@ -31,9 +31,9 @@ dependencies:
   json_serializable: ^4.1.4
   flutter_spinkit: ^5.1.0
   flutter_native_splash: ^1.2.1
-  flutter_icons: ^1.1.0
   flutter_dotenv: ^5.0.2
   http: ^0.13.3
+  fluttericon: ^2.0.0
 
 dev_dependencies:
   flutter_launcher_icons: ^0.9.2
